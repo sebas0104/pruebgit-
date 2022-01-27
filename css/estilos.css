@@ -1,0 +1,301 @@
+sesection
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body {
+    
+    line-height: 1.5;
+    color: #FFF;
+    background: orange;
+}
+
+#contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+/*-- BARRA DE NAVEGACIÓN LATERAL --*/
+
+.contenedor-nav {
+    display: none;
+    position: absolute;
+    margin-top: -40px;
+    display: block;
+    width: 120px;
+    height: 99%;
+    background: #222;
+    color: #FFF;
+    position: fixed; 
+    z-index: 100;
+}
+
+.contenedor-nav a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.contenedor-nav a:hover {
+    background: #000;
+}
+
+
+main {
+    margin-left: 120px;
+}
+
+ h1 {
+    font-family: Amalfi Coast;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+header img {
+   width: 1000px;  
+    display:block;
+    margin:auto;
+
+}
+
+/*---------------------MAIN FIGURE---------------------*/
+
+    
+    figure.pesca{
+        
+        display: inline-block;
+        margin: 20px;
+        min-width: 200px;
+        max-width: 300px;
+        max-height: 220px;
+        width: 100%;
+    }
+    figure.pesca * {
+        box-sizing: border-box;
+    }
+    figure.pesca img {
+        width: 100%;     
+    }
+    
+figure.pe figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 3em 3em;
+        width: 100%;
+        height: 100%;
+section {
+    margin-left: 100px;
+    max-width: 980px;  
+}
+
+section h2 {
+    color: #FFF;
+    padding-top: 64px;
+    padding-bottom: 5px;
+}
+
+section p {
+    text-align: justify;
+    color: ;
+
+}
+
+section hr {
+    width: 200px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    height: 0;
+    
+}
+
+
+
+.team-section {
+    text-align: center;
+    padding: 60px;
+}
+
+
+}
+
+.borde {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498DB;
+    margin-bottom: 40px;
+}
+
+.
+
+.section {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target {
+    height: auto;
+}
+
+.name {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+form {
+    padding: 8px;
+    overflow: hidden;  
+    border: none;
+    border-bottom: 1px solid #CCC;
+}
+
+input {
+    padding-top: 16px;
+    padding-bottom: 16px;  
+    width: 100%;
+}
+
+footer {
+    margin-left: 120px;
+}
+
+
+.conector-social {
+	width: 100%;
+	display: block;
+	margin: 0px 10px;
+	text-align: center;
+}
+
+.conector-social h4 {
+	margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.conector-social ul li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.conector-social ul li a img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: 300px;
+    color: #fff;
+    line-height: 2.4em;
+    border-radius: 50%;
+    text-align: center;
+	margin-bottom: 20px;
+} 
+.conector-social ul li a:hover {
+    color: #ff5722;
+    border-color: #ff5722;
+}
+
+.copyright {
+	text-align: center;
+	padding: 30px 0;
+	border-top: 1px solid #EEE;
+}
+.copyright p {
+	color: #222;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 25px;
+	
+}
+.copyright a {
+	color: #FFF;
+	text-decoration: none;
+}
+.copyright a:hover {
+	color: #bdd001;
+	text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        font-size: 12px;
+    }
+    
+    header h1 {
+        padding-top: 50px;
+    }
+    
+    .contenedor-nav {
+        display: flex;
+        flex: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        opacity: 0.7;
+    }
+ 
+    .contenedor-nav a {
+        display: inline-block;
+    }
+    
+    .contenedor-nav img {
+        display: none;
+        position: relative;
+    }
+    
+    .contenedor-nav a:hover {
+        background: #000;
+    }
+    
+    main {
+        margin: auto;
+    }
+    
+    section {
+        width: 100%;
+        max-width: 500px;
+        margin: auto 40px;
+    }
+    
+
+    
+    footer {
+        margin: auto;
+    }
+
+
+

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+    <link rel="stylesheet" href="css/estilos.css">
+<body onload="deletreo();carrusel();">
+    <div id="contenedor">
+           <nav  class="contenedor-nav">
+                <div>
+                    <a href="inicio.html">
+                    <p>INICIO</p></a>
+                </div>
+                <div>
+                    <a href="#">
+                    <p>CAÑAS</p></a>
+                </div>
+                <div>         
+                    <a href="#">
+                    <p>REEL</p>
+                   </a>
+                </div>
+                <div>         
+                    <a href="#">
+                    <p>ANZUELOS</p>
+                </a>
+                </div>
+                <div>         
+                    <a href="#">
+                    <p>SEDAL</p>
+                </a>
+                </div>
+                <div>         
+                    <a href="#">
+                    <p>PLUMAS</p>
+                </a>
+                </div>
+                <div>         
+                    <a href="Quiens somos.html">
+                    <p>QUIENES SOMOS</p>
+                </a>
+                </div>
+                 <div>         
+                    <a href="#">
+                    <p>CONTACTANOS</p>
+                    </a>
+                </div> 
+            </nav>
+            <header>
+                <h1 id="titulo">Great fishermen</h1>
+                <img id="logo" src="imagenes/banner/banner.jpg" alt="Banner">
+            </header>
+        
+        <footer>
+            <h2>CONTACTANOS</h2>
+            <p>para mayor informcion:01467666</p>
+            <p>whatsapp:909050423</p>
+            <p>email:service_pesca@greatfishermen.com</p>
+            <h3>PARA MAS INFORMACION</h3>
+             <form id="frmregistro" onsubmit="registrar()">
+                <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input name="txtnombre">
+                   </td>
+                </tr>
+                <tr>
+                    <td>Apellido</td>
+                    <td><input name="txtapellido">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telefono</td>
+                    <td><input name="txtfono">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Correo Electronico</td>
+                    <td><input name="txtemail">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="reset" value="Limpiar">
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+           
+            <div class="conector-social">
+			    <h4>REDES SOCIALES</h4>  
+				<ul>
+					<li><a  href="https://www.facebook.com/"><img class="rs" data-rs="facebook"src="iconos/Redes Sociales/facebook.png" onmouseover="cambio(0)" onmouseout="original(0)"></a></li> 
+					<li><a  href="https://www.instagram.com/"><img class="rs" data-rs="instagran"src="iconos/Redes Sociales/instagran.png" onmouseover="cambio(1)" onmouseout="original(1)"></a></li> 
+					<li><a href="https://twitter.com/"><img class="rs" data-rs="twitter"src="iconos/Redes Sociales/twitter.png" onmouseover="cambio(2)" onmouseout="original(2)"></a></li> 
+				</ul>
+		    </div>
+		
+        </footer>
+   
+  
+</body>
+</html>
+<script src="js/contactanos.js"></script>
